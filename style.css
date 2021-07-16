@@ -1,0 +1,38 @@
+:root{
+    /* --gray: #BDBDBD;
+    --white: #FFFFFF;
+    --black: #000000; */
+  
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    font-family:"poppins";
+    margin: auto;
+}
+/* 
+h1,h2,h3,h4,h5,h6,strong{
+    font-family:"poppins";
+    font-weight: 700;
+}
+p,li{
+    font-family:"poppins";
+    font-weight: 400;
+    font-size: 20px;
+} */
+
+a {
+    text-decoration: none; 
+  }
+.header_part{
+
+    background-image: url('images/bgimg.png');
+}
