@@ -1,9 +1,10 @@
 :root{
-    /* --gray: #BDBDBD;
-    --white: #FFFFFF;
-    --black: #000000; */
-  
-
+    --white:  #FFFFFF;
+    --black:  #262F47;
+    --black2: #4F4F4F; 
+    --blue:   #3362D9;
+    --green:#09A943;
+    --grayl:#F4F5F9;
 }
 
 
@@ -13,21 +14,41 @@
     
 }
 
+.mw1140{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 body{
     font-family:"poppins";
     margin: auto;
 }
-/* 
-h1,h2,h3,h4,h5,h6,strong{
+ 
+h2{
     font-family:"poppins";
     font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
-p,li{
+h4{
+    font-family:"poppins";
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--black);
+
+}
+p{
     font-family:"poppins";
     font-weight: 400;
-    font-size: 20px;
-} */
+    /* font-size: 18px; */
+    color: var(--black2);
+    /* text-align: justify; */
+       
+   
+    
+   
+} 
 
 a {
     text-decoration: none; 
@@ -35,4 +56,264 @@ a {
 .header_part{
 
     background-image: url('images/bgimg.png');
+}
+.header_logoitems{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+.header_parahedbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+   
+   
+
+}
+.header_heading{
+    font-family:"poppins";
+    font-weight: 700;
+    color: var(--white);
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+
+}
+.header_paragraph{
+    font-family:"poppins";
+    font-weight: 600;
+    color: var(--white);
+    font-size: 18px;
+    text-align: center;
+    width: 36%;
+    margin-bottom: 20px;
+
+
+}
+.nav_buttonsub{
+background: var(--green);
+border: 2.5px solid #FFFFFF;
+border-radius: 56px;
+color: var(--white);
+padding: 12px 25px;
+margin-bottom: 30px;
+
+}
+/* 
+*************** header Section End ***************** */
+
+.schoolapp{
+    display: flex;
+}
+
+
+/* ***************** schoolappwork start**************** */
+
+.schoolapp_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: justify; */
+
+   
+
+}
+.schoolapptop_para{
+    font-size: 18px;
+    color: var(--black2);
+    margin-top: 20px;
+    
+    
+}
+
+.schoolapp_mid{
+    display: flex;
+   justify-content: space-between;
+}
+.data_schoolapp{ 
+    padding-right: 40px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    /* height: 260px; */
+  
+}
+.schoolapp_work{
+    background-color: var(--grayl);
+    padding-bottom: 70px;
+    padding-top: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.schoolapp_para{
+   font-size: 16px;
+   color: var(--black2);
+   
+}
+.para_schoolbottom{
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+/* 
+***************** schoolappwork end **************** */
+
+
+/* 
+***************** whereisaschool start**************** */
+
+
+.whereisa_schooltop{
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+    text-align: center;
+    line-height: 130%;
+}
+.data_whereisa{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.img_where{
+    margin-right: 20px;
+}
+.para_whereisa{
+    font-size: 16px;
+    color: var(--black2);
+}
+
+
+
+
+/* ***************** whereisaschool start**************** */
+
+
+
+
+/* benefitsofschoolapp start  */
+
+.communication_imgpara{
+    display: flex;
+    margin-bottom: 16px;
+    
+   
+    
+}
+.data_communication{
+    margin-bottom: 40px;
+   
+}
+
+.img_featuresimg{
+    width: 50%;
+  
+}
+.img_featuresimgbig{
+    display: flex;
+   justify-content: center;
+   margin-bottom: 60px;
+   margin-top: 60px;
+
+}
+.para_firstsection{
+    margin-bottom: 20px;
+}
+.para_benefitapptop{
+    margin-bottom: 40px;
+}
+.img_datacom{
+    margin-right: 10px;
+}
+.para_benefitapptop{
+    text-align: justify;
+}
+
+
+
+/* ***************** benefitsofschoolapp end *************** */
+
+/* features schoolapp section start */
+.head_tnterface{
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+/* .img_featuresimg{
+    display: flex;
+    justify-content: center;  
+} */
+
+.images_features{
+    display: flex;
+    justify-content: center;
+   width: 100%;
+    
+}
+.ease_head{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.ease_para{
+    margin-bottom: 16px;
+}
+
+
+.features_secondsection{
+    margin-top: 60px;
+    
+
+}
+.datas_features{
+    display: flex;
+    margin-bottom: 20px;
+    
+
+
+}
+.img_images{
+    width: 50%;
+}
+
+.headpara_featuressecond{
+    display: flex;
+    flex-direction: column;
+    align-self: center ;
+   
+
+}
+.head_grophead{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+/* features schoolapp section start */
+
+
+
+
+.head_bestschool{
+    margin-bottom: 20px;
+}
+
+.para_bestschool{
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+.headpara_bestschool{
+    margin-bottom: 60px;
+}
+.images_enoughspace{
+    display: flex;
+    flex-direction: row;
+    align-self: center ;
 }
