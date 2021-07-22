@@ -152,8 +152,12 @@ margin-bottom: 30px;
 /* 
 *************** header Section End ***************** */
 .schoolapp-maindiv {
-    margin-top: 60px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 
+}
+.maindiv_head{
+    display: flex;
 }
 .inline_blk{
     font-family: "poppins";
