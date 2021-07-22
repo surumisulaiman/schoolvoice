@@ -66,11 +66,12 @@ a   {
 .header_part{
 
     background-image: url('images/bgimg.png');
+  
 }
 .header_logoitems{
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    padding-top: 20px;
     align-items: center;
 }
 .header_parahedbtn{
@@ -79,7 +80,7 @@ a   {
     align-items: center;
 }
 .logo{
-   
+   margin-left: 30px;
     
 
 }
