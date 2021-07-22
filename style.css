@@ -50,13 +50,14 @@ p{
     /* font-size: 18px; */
     color: var(--black2);
     /* text-align: justify; */
+    margin-bottom: 12px;
        
    
     
    
 } 
 
-a   {
+a{
     text-decoration: none; 
   }
   ul{
@@ -116,8 +117,6 @@ a   {
     margin-right: 8px;
 }
 .img-menu{
-    
-    
     text-align: center;
 }
 
@@ -152,11 +151,55 @@ margin-bottom: 30px;
 }
 /* 
 *************** header Section End ***************** */
+.schoolapp-maindiv {
+    margin-top: 60px;
+
+}
+.inline_blk{
+    font-family: "poppins";
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black); 
+}
 
 .schoolapp{
     display: flex;
+    margin-bottom: 24px;
+}
+.schoolapp_left{
+   width:65%;
+   padding-right: 40px;
+   
+   
 }
 
+.schoolapp_right{
+  
+    width:35%
+   
+}
+.rightp80{
+    padding-left: 80px;
+}
+
+.timline_content{
+    border-left: 2px solid var(--grayl);
+    
+}
+.timeline{
+    margin-left: -8px;
+}
+/* timeline_area */
+
+/* The circles on the timeline */.event{
+background-image: url('images/ball.png');
+  background-position: left top;
+  background-position: 0 7px;
+  background-repeat: no-repeat;
+  padding-left: 30px; /* Adjust according to image size to push text across. */
+    margin-bottom: 16px;
+}
+/* timeline_area */
 
 /* ***************** schoolappwork start**************** */
 
@@ -414,6 +457,7 @@ h2{
  
     background-color: var(--grayl);
     padding: 20px;
+    border-radius: 10px;
 }
 .first_box{
     grid-column: 1/3;
