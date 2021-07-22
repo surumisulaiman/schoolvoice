@@ -5,6 +5,8 @@
     --blue:   #3362D9;
     --green:#09A943;
     --grayl:#F4F5F9;
+    --darkgray: #8A92A8;
+
 }
 
 
@@ -54,8 +56,12 @@ p{
    
 } 
 
-a {
+a   {
     text-decoration: none; 
+  }
+  ul{
+    list-style-type: none;
+    
   }
 .header_part{
 
@@ -74,9 +80,46 @@ a {
 }
 .logo{
    
-   
+    
 
 }
+.nav_items{
+    display: flex;
+    align-items: center;
+    
+}
+.header_parahedbtn{
+    padding-top: 70px;
+}
+
+.nav_button{
+    color: var(--white);
+    background-color: var(--blue);
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 2.5px solid #FFFFFF;
+    margin-right: 4px;
+}
+
+.sign_up{
+    background-color: var(--green);  
+}
+
+.img{
+    width: 246px;
+    height: 60px;
+}
+.link{
+    font-size: 16px;
+    color: var(--white);
+    margin-right: 8px;
+}
+.img-menu{
+    
+    
+    text-align: center;
+}
+
 .header_heading{
     font-family:"poppins";
     font-weight: 700;
@@ -141,7 +184,7 @@ margin-bottom: 30px;
     padding-right: 40px;
     margin-top: 40px;
     padding-bottom: 20px;
-    /* height: 260px; */
+   
   
 }
 .schoolapp_work{
@@ -159,6 +202,14 @@ margin-bottom: 30px;
 .para_schoolbottom{
     margin-bottom: 40px;
 
+}
+.img_schoolapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    width: 60px;
+    height: 60px;
 }
 
 
@@ -190,16 +241,22 @@ h2{
 }
 .img_where{
     margin-right: 20px;
+    width: 130px;
+    height: 130px;
+
 }
 .para_whereisa{
     font-size: 16px;
     color: var(--black2);
 }
 
+.whereisa_headpara{
+    align-self: center;
+}
 
 
 
-/* ***************** whereisaschool start**************** */
+/* ***************** whereisaschool end**************** */
 
 
 
@@ -333,7 +390,7 @@ h2{
 }
 .images_enoughspace{
     display: flex;
-    flex-direction: center
+    flex-direction: center;
     
 }
 .headimgpara_divbest{
@@ -362,4 +419,85 @@ h2{
     color: red;
 }
 
+
 /* bestschool app end */
+
+
+
+/* footer Section  start */
+.footer_heading{
+    background-color: var(--blue);
+}
+.para_para1{
+    font-size: 18px;
+    text-align: justify;
+    
+}
+.footer_button{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    background-color: var(--green);
+    color: var(--white);
+    padding: 12px 25px;
+    border-radius: 56px;
+    border: 2.5px solid var(--white);  
+    font-size: 16px;  
+}
+.head_footer{
+    color: var(--white);
+}
+.howarewe_head{
+    margin-top: 100px;
+}
+.howare_we{
+    margin-bottom: 100px;
+}
+.footer_heading{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.socialmedia_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    margin-bottom: 50px;
+   
+}
+.footer_itemsdiv{
+    display: flex;
+   justify-content: center;
+   justify-content: space-between;
+   margin-bottom: 50px;
+    }
+.footer_socialmedia{
+    
+    margin-top: 60px;
+   
+}
+
+.footer_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+   
+    
+}
+.footer_bottom h4{
+    font-size: 14px;
+    color: var(--darkgray);
+}
+.images_socialmedia{
+    margin-left: 20px;
+}
+.footer_itemsdiv a{
+  color: var(--black);
+  font-size: 14px;
+}
+.footerbottom_head{
+    margin-bottom: 10px;
+}
+
+
+/* footer Section  end */
