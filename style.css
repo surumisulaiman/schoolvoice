@@ -643,6 +643,20 @@ p{
 li a{
     font-size: 14px;
 }
+.maindiv_head{
+    display: block;
+}
+.header_heading {
+    width:100%;
+    font-size: 30px;
+}
+.header_paragraph{
+    width: 100%;
+}
+.header_parahedbtn{
+    padding-left: 16px;
+    padding-right: 16px;
+}
 
 
 /* header part responsive end */
@@ -652,6 +666,7 @@ li a{
     flex-direction: column;
     align-items: center;
 }
+
 /* footer part responsive end*/
 
 .img_featuresimg {
@@ -666,5 +681,18 @@ li a{
 }
 .img_illustation{
     margin-bottom: 40px;
+}
+.timeline{
+    display: none;
+}
+
+
+
+
+
+
+
+#myLinks{
+    display: none;
 }
 
