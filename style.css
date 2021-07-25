@@ -91,9 +91,14 @@ a{
     align-items: center;
     
 }
+
 .header_parahedbtn{
+    display: flex;
     padding-top: 70px;
+   
 }
+
+
 
 .nav_button{
     color: var(--white);
@@ -124,6 +129,7 @@ a{
 .header_heading{
     font-family:"poppins";
     font-weight: 700;
+    width: 620px;
     color: var(--white);
     font-size: 50px;
     margin-bottom: 20px;
@@ -135,9 +141,10 @@ a{
     font-weight: 600;
     color: var(--white);
     font-size: 18px;
-    text-align: center;
-    width: 36%;
+    /* text-align: center; */
+    width: 500px;
     margin-bottom: 20px;
+    text-align:  center;
 
 
 }
@@ -551,3 +558,70 @@ h2{
 
 
 /* footer Section  end */
+
+
+
+
+
+/* Extra small devices (phones, 420px and down) */
+
+@media only screen and (max-width: 700px) {
+                            
+    body{
+        
+        width: 100%;
+        min-width: 360px;
+    }
+.nav_items{
+
+}
+
+
+
+
+
+.schoolapp{
+    flex-direction: column;
+}
+.schoolapp_left {
+   width: 100%; 
+   padding-right: 0px;
+}
+.schoolapp_right {
+    width: 100%;
+}
+.rightp80{
+    padding-left: 0px;
+}
+.img_illustation{
+    width: 100%;
+}
+.schoolapp_mid{
+    flex-direction: column;
+}
+.data_schoolapp {
+    margin-top: 0px;
+}
+
+.img_where img{
+    width: 100%;
+}
+.bestschoolapp_boxes{
+    display: flex;
+    flex-direction: column;
+}
+.images_enoughspace{
+    width: 300px;
+}
+
+.datas_features{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.headpara_featuressecond{
+    width: 100%;
+}
+.img_images{
+    width: 100%;
+}
